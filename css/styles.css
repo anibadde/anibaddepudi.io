@@ -1,0 +1,69 @@
+
+h1{
+  font-size: 200%;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 1000;
+  text-align: center;
+}
+
+body{
+  width: 95%;
+  margin: 1em auto;
+}
+
+.container{
+  padding-left: 0px;
+}
+
+
+a{
+  font-weight: 400;
+  color: #27292b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e6a78;
+  text-decoration: none;
+}
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.logo-header {
+  position: relative;
+  top: -14px;
+  left: 10px;
+}
+
+tr.spaceUnder>td {
+  padding-bottom: 2em;
+}
+
+tr.firstSpaceUnder>td {
+  padding-bottom: 4em;
+}
+
+@media only screen and (max-device-width: 600px) {
+      .show-mobile {
+        display: block;
+      }
+      .hide-mobile {
+        display: none;
+      }
+    }
+
+ @media only screen and (min-device-width: 601px) {
+      .show-mobile {
+        display: none;
+      }
+      .hide-mobile {
+        display: block;
+      }
+    }
